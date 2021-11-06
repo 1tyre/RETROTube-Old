@@ -1,0 +1,188 @@
+.controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 24px;
+    background-image: url(./gradient.png);
+    table-layout: fixed;
+    z-index: 2;
+    border-style: solid;
+    user-select: none;
+    border: solid #b1b1b1 1px;
+}
+.playButton {
+    width: 30px;
+    height: 24px;
+    background-image: url(./1.png);
+    display: inline-block;
+    background-position-y: -1px;
+    cursor: pointer;
+}
+.playButton:hover {
+    background-image: url(./3.png);
+}
+.playButton:active {
+    background-image: url(./4.png);
+}
+.pauseButton {
+    width: 30px;
+    height: 24px;
+    background-image: url(./2.png);
+    display: inline-block;
+    background-position-y: -1px;
+    cursor: pointer;
+}
+.pauseButton:hover {
+    background-image: url(./5.png);
+}
+.pauseButton:hover {
+    background-image: url(./6.png);
+}
+.fullscreenButton {
+    border: 0;
+    padding: 0;
+    vertical-align: top;
+    width: 17px;
+    height: 16px;
+    background-image: url(./fullscreen.png);
+    margin-right: 7px;
+    margin-top: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+.fullscreenButton:hover {
+    background-image: url(./fullscreen1.png);
+}
+.fullscreenButton:active {
+    width: 31px !important;
+    background-image: url(./fullscreen2.png) !important;
+    background-position: 1px -1px;
+    height: 24px;
+    margin: 0;
+    margin-left: -7px;
+}
+.separator {
+    display: inline-block;
+    vertical-align: top;
+    width: 2px;
+    height: 24px;
+    background-image: url(./separator.png);
+    margin: 0 2px;
+}
+.timer {
+    display: inline-block;
+    height: 18px;
+    line-height: 14px;
+    min-width: 60px;
+    white-space: nowrap;
+    color: #000;
+    font-family: Arial;
+    border-radius: 2px;
+    font-size: 11px;
+    cursor: default;
+    margin-top: 5px;
+}
+.volbar {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 47px;
+    height: 4px;
+    background-image: url(./bar.png);
+    background-size: 47px 4px;
+    background-clip: content-box;
+    padding: 6px 0;
+    margin: 4px 8px 0 3px;
+}
+#slider {
+    position: absolute;
+    top: -1px;
+    left: -4px;
+    width: 8px;
+    height: 17px;
+    margin-left: -10%;
+    background-image: url(./slider.png);
+    background-size: 8px 19px;
+    border-radius: 1px;
+}
+.video {
+    width:100%;
+    height:100%;
+}
+.volvisual {
+    border: 0;
+    padding: 0;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    background-image: url(./volume_loud.png);
+    margin-top: 2px;
+    overflow: hidden;
+    display: inline-block;
+}
+.progress {
+    background-image: url(./progress.png);
+    background-size: 1px 8px;
+    height: 8px;
+    position: relative;
+    margin: 8px 25px 0;
+    margin-left: 10px;
+    border: 1px inset;
+    border-left-color: #f0f0f0;
+    border-right-color:  #BABABA;
+    border-bottom-color: #EAEAEA;
+}
+.position {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(./position.png);
+    background-size: 1px 8px;
+    width: 0%;
+}
+#scrubber {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: -4px;
+    left: -7px;
+    margin-left: -1px;
+    outline: 0 !important;
+    background-image: url(./knob.png);
+    background-size: 16px 16px;
+    border-radius: 50%;
+}
+#scrubber:active {
+    background-image: url(./knob1.png);
+}
+.playIcon {
+    background-image:url(./play2.png);
+    background-repeat:no-repeat;
+    position:absolute;
+    width: 104px;
+    height: 78px;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+.spinner {
+    background-image: url(./loading.gif);
+    background-repeat:no-repeat;
+    position:absolute;
+    width: 27px;
+    height: 27px;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
