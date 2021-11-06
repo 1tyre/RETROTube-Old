@@ -1,0 +1,18 @@
+.user-picture{
+	width: 100px;
+	height: 100px;
+	background: var(--txtcol);
+}
+.user-info{
+	font-size: 12px;
+	flex: 1 0 5em;
+	color: #666;
+	position: absolute;
+	right: 0;
+}
+.user{
+	position: relative;
+}
+.black{
+	font-weight: bold;
+}

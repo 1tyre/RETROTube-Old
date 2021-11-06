@@ -1,0 +1,90 @@
+html {
+    --card-login-1: #ccc;
+    --colw: #fff;
+    --colg: #999;
+    --colg-1: #666;
+    --colbl: #000;
+    --inputlol-1: #fff;
+    --colg-4: #444;
+}
+html[data-theme='dark'] {
+    --card-login-1: rgb(43, 43, 43);
+    --colw: #000;
+    ---colg: #666;
+    --colg-1: #999;
+    --colbl: #fff;
+    --inputlol-1: #161616;
+    --colg-4: #888;
+}
+
+.video-info{
+    color: var(--colg-1);
+    font-size: 11px;
+}
+.video-info div span{
+    color: var(--txtcol);
+}
+.video-info{
+    flex: 1 0 5em;
+}
+.video-title a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.video-thumbnail{
+    flex: 0 0 120px;
+    border: 1px solid var(--colw);
+    outline: 1px solid var(--colg);
+    background: var(--colbl);
+    width: 120px;
+    height: 72px;
+    padding: 0px;
+    display: block;
+    margin: auto;
+}
+.video-thumbnail video{
+    width: 100%;
+    height: 100%;
+}
+.featured-video{
+    width: 120px;
+    height: auto;
+}
+.featured-video-info{
+    text-align: center;
+    font-size: 12px;
+    color: #444;
+    margin: 5px 0;
+}
+.featured-video-info .video-title a{
+    text-decoration: underline;
+}
+.featured-video-info .video-author a{
+    color: var(--colg-4);
+    font-size: 11px;
+}
+.featured-video .video-thumbnail{
+    margin: auto;
+}
+.card.login .card-header {
+    border-radius: 7px 7px 0 0;
+    background: var(--card-login-1);
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card.login .card-content {
+    padding: 10px;
+    border: 1px solid var(--card-login-1);
+    border-top: 0px;
+    font-size: 12px;
+}
+h3{
+    margin-top: 5px;
+}
+
+textarea{
+	resize: vertical;
+	background-color: var(--inputlol-1);
+}
