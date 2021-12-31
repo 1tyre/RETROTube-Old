@@ -28,7 +28,7 @@ error_reporting(E_ALL);
         while($row = $result->fetch_assoc()) {
             echo '
             <h2>' . $row['videotitle'] . '</h2>
-            <iframe id="vid-player" style="border: 0px; overflow: hidden;" src="player/embed.php?id=' . $_GET['id'] . '" height="360px" width="480px"></iframe> <br><br>
+            <iframe id="vid-player" style="border: 0px; overflow: hidden;" src="player/lolplayer.php?id=' . $_GET['id'] . '" height="360px" width="480px"></iframe> <br><br>
                 <script>
                     var vid = document.getElementById(\'vid-player\').contentWindow.document.getElementById(\'video-stream\');
                     function hmsToSecondsOnly(str) {
