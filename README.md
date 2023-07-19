@@ -1,10 +1,7 @@
-# RETROTube's old source code
+# READ THIS SHIT!!!!!!!!!!
 
-![real](https://cdn.discordapp.com/attachments/874110967011741768/939286892124471326/retro.png)
+ay mane this is a modified version of yt2007 from bhief, its vulnerable as FUCK!!!!
 
-just a modified version of typicalname0 (bhief)'s youtube 2007 recreation lol
+don't use this is you're gonna use this for your revival, yet i know you won't read this because there was another retard who used this source code LOL
 
-## WARNING
-dont use this code, its shitty as hell and its very vulnerable.
-
-last updated: 10/10/2022
+last updated: 7/19/2023
